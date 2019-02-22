@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+
+/*Basic styles*/
+
+html, body {
+ font-family: 'Luckiest Guy', cursive;
+ background-color:#545454;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ 
+ 
+}
+
+/*Header Styles*/
+
+.logo {
+ background-image:url(../opensource_materials/The_Monkees_wiki_pic_1.jpg);
+ background-repeat: no-repeat;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ min-height:300px;
+ margin:0;
+ padding:0;
+ cursor:pointer;
+ 
+}
+
+span {
+ text-transform: uppercase;
+ font-size:50px;
+}
+
+.logo > .frame-text {
+ text-align:center;
+}
+
+.logo > .frame-text > .t {
+ color:#009688;
+}
+.logo > .frame-text > .h {
+ color:#c874d6;
+}
+.logo > .frame-text > .e {
+ color:#d88ca6;
+ letter-spacing: 20px;
+}
+.logo > .frame-text > .m {
+ color:#ff9800;
+}
+.logo > .frame-text > .o {
+ color:#61d2e0;
+}
+.logo > .frame-text > .n {
+ color:#e66b62;
+}
+.logo > .frame-text >.k {
+ color:#ded058;
+}
+.logo > .frame-text >.e-1 {
+ color:#6e7fdc;
+}
+.logo > .frame-text >.e-2 {
+ color:#795548;
+}
+.logo > .frame-text >.s {
+ color:#fafafa;
+ 
+}
+
+.navs {
+ margin:0;
+ padding:0;
+ 
+}
+
+#nav-dropdown li {
+ margin:0;
+ padding:0;
+ text-align:center;
+ font-size:25px;
+ cursor: pointer;
+ 
+}
+
+#nav-dropdown li a {
+ margin:0;
+ padding:0;
+ min-height:100px;
+ border:1px ridge #424242;
+ 
+ 
+}
+
+#nav-dropdown li a:before {
+ background:rgba(0,0,0,0.3);
+ transition: all .6s ease-out;
+ 
+ -moz-transition: all .6s ease-out;
+ -webkit-transition: all .6s ease-out;
+ -o-transition: all .6s ease-out;
+ text-align:center;
+ 
+}
+
+#nav-dropdown li .home {
+ background:#dc6b63;
+ 
+}
+
+#nav-dropdown li .about {
+ background:#00bcd4;
+ 
+}
+
+#nav-dropdown li .music {
+ background:#009688;
+ 
+}
+
+#nav-dropdown li .bookings {
+ background:#d8c948;
+ 
+}
+
+#nav-dropdown li a i {
+    display: block;
+    font-size: 50px;
+    padding: 10px;
+    text-align:center;
+    transform: rotate3d(20deg);
+}
+
+#nav-dropdown li a .fa-home {
+ color:#ffe713;
+}
+
+#nav-dropdown li a .fa-leaf {
+ color:#22a027;
+}
+
+#nav-dropdown li a .fa-play {
+ color:#f44336;
+}
+
+#nav-dropdown li a .fa-calendar {
+ color:#2997cc;
+}
+
+#nav-dropdown li a  span {
+ color:#fafafa;
+ font-size:35px;
+}
+
+/*Footer Styles*/
+
+
+
+.newsletter-text {
+ text-align:center;
+ margin:0;
+ padding:0;
+}
+
+.newsletter-text > .heading > h2 {
+ margin:0;
+ padding:0;
+ font-size:38px;
+ color:#fafafa;
+}
+
+.newsletter-text > .heading {
+ margin-top:10px;
+ margin-bottom:25px;
+}
+
+.newsletter-text > .heading > h2 > mark {
+ margin:0;
+ padding:0;
+ color:#ffe713;
+ background:#dc6b63;
+}
+
+
+
+.social-media {
+ text-align:center;
+ margin:0;
+ padding:0;
+}
+
+.dropdown_socialmedia {
+ margin:0;
+ padding:0;
+}
+
+#socialmedia > li > a {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 35px;
+    padding-top: 6px;
+}
+#socialmedia > li > .a-facebook {
+ background:#5757e2;
+}
+
+#socialmedia > li > .a-twitter {
+ background:#57e3f5;
+}
+
+#socialmedia > li > .a-youtube {
+ background:#fafafa;
+}
+
+#socialmedia > li > a > .fa-facebook {
+ 
+ color:#ffffff;
+}
+
+#socialmedia > li > a > .fa-twitter {
+ 
+ color:#ffffff;
+}
+
+#socialmedia > li > a > .fa-youtube {
+ 
+ color:red;
+}
+
+.newsletter-form {
+ margin:0;
+ padding:0;
+ margin-top:50px;
+}
+
+.newsletter-form > .heading {
+text-align:center;
+}
+
+.newsletter-form > .heading > form > .form-group > .fa-envelope-open {
+    font-size: 25px;
+    color: #ffffff;
+    position: relative;
+    top: -15px;
+}
+
+.newsletter-form > .heading > form > .form-group > .fa-envelope-open:hover {
+    color:rgba(0,0,0,0.5);
+}
+
+.newsletter-form > .heading > form  {
+ margin-bottom:30px;
+}
+
+.newsletter-form > .heading > form > .btn-primary {
+    color: #ffe500;
+    background: #f5514d;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.copyright > .heading  {
+    text-align:center;
+    margin-top:50px;
+    color:#ffffff;
+}
+
+.copyright > .heading > p > .fa-copyright > .copyright-text {
+ 
+ font-size:12px;
+}
+
+.themonkees {
+ border-radius:60%;
+ border:none;
+}
+
+@media (min-width:768px) and (max-width:991px) {
+ 
+ .logo {
+ background-image:url(../opensource_materials/The_Monkees_wiki_pic_1.jpg);
+ background-repeat: no-repeat;
+ min-height:450px;
+ margin:0;
+ padding:0;
+ cursor:pointer;
+ 
+}
+ 
+ 
+.newsletter-form > .heading {
+text-align:center;
+
+}
+
+.newsletter-form > .heading > form > .form-group > .fa-envelope-open {
+    position: relative;
+    top: -35px;
+    left: 100px;
+}
+
+.newsletter-form > .heading > form > .btn-primary {
+    position:relative;
+    top:5px;
+    left:8px;
+}
+
+.newsletter-text > .heading {
+ position:relative;
+ top:40px;
+}
+
+.social-media > .heading {
+ position:relative;
+ top:70px;
+ 
+}
+
+.newsletter-form > .heading {
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+
+.frame-text > span {
+
+ font-size:100px;
+}
+
+}
+
+
+@media (min-width:992px) {
+
+ .logo {
+ background-image:url(../opensource_materials/The_Monkees_wiki_pic_1.jpg);
+ background-repeat: no-repeat;
+ min-height:600px;
+ margin:0;
+ padding:0;
+ cursor:pointer;
+ 
+}
+
+ .newsletter-form > .heading {
+text-align:center;
+
+}
+
+.newsletter-form > .heading > form > .form-group > .fa-envelope-open {
+    position: relative;
+    top: 2px;
+    left: -5px;
+}
+
+.newsletter-form > .heading > form > .btn-primary {
+    position:relative;
+    top:2px;
+    left:8px;
+}
+
+.newsletter-text > .heading {
+ position:relative;
+ top:40px;
+}
+
+.social-media > .heading {
+ position:relative;
+ top:70px;
+ 
+}
+
+.newsletter-form > .heading {
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+
+.frame-text > span {
+
+ font-size:100px;
+}
+
+}
+
+@media (min-width:1200px) {
+  .logo {
+ background-image:url(../opensource_materials/The_Monkees_wiki_pic_1.jpg);
+ background-repeat: no-repeat;
+ min-height:700px;
+ margin:0;
+ padding:0;
+ cursor:pointer;
+ 
+}
+
+span {
+ text-transform: uppercase;
+ font-size:150px;
+}
+
+}
+
+@media (min-width:1800px) {
+  .newsletter-text > .heading {
+text-align:center;
+position: relative;
+top: 60px;
+}
+
+  .logo {
+ background-image:url(../opensource_materials/The_Monkees_wiki_pic_1.jpg);
+ background-repeat: no-repeat;
+ background-size: cover ;
+ -moz-background-size: cover ;
+ -webkit-background-size: cover ;
+ -o-background-size: cover ;
+ margin:0;
+ padding:0;
+ cursor:pointer;
+ 
+}
+
+.frame-text > span {
+
+ font-size:150px;
+}
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
