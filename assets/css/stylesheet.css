@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
 
-/*Basic styles*/
+/*start Basic styles*/
 
 html, body {
  font-family: 'Luckiest Guy', cursive;
@@ -10,10 +10,11 @@ html, body {
  -o-background-size: cover;
  background-size: cover;
  
- 
 }
 
-/*Header Styles*/
+/*end Basic styles*/
+
+/*start Headers Style Image*/
 
 .logo {
  background-image:url(../opensource_materials/The_Monkees_wiki_pic_1.jpg);
@@ -70,6 +71,10 @@ span {
  color:#fafafa;
  
 }
+
+/*end Headers Style Image*/
+
+/*start Headers Style navigation*/
 
 .navs {
  margin:0;
@@ -155,9 +160,144 @@ span {
  font-size:35px;
 }
 
-/*Footer Styles*/
+/*end Headers Style navigation */
 
 
+/*start Section Style*/
+
+section {
+ background:#00bcd4;
+}
+
+.section-jumbotron {
+ margin:0;
+ padding:0;
+}
+
+.section-jumbotron > .heading {
+ text-align:center;
+ margin-bottom:-11px;
+}
+
+.section-jumbotron > .heading > .jumbotron > h1 {
+ margin:0;
+ padding:0;
+ color:#ffffff;
+}
+
+.section-jumbotron > .heading > .jumbotron  {
+ background:#dc7f78;
+}
+
+.section-jumbotron > .heading > .jumbotron > p > a  {
+ background:#009688;
+ font-size:20px;
+ position:relative;
+ top:20px;
+ border:none;
+ 
+}
+
+.section-image {
+ margin:0;
+ padding:0;
+}
+
+
+#dropdown-menu li {
+ 
+ text-align:center;
+ height:150px;
+ font-size:25px;
+ cursor: pointer;
+ margin:0;
+ padding:0;
+ margin-top:10px;
+ 
+}
+
+#dropdown-menu li a {
+ 
+ height:150px;
+ border:1.5px ridge #ffffff;
+ background:transparent;
+ width:100%;
+ transition: background .8s ease-in-out;
+ 
+ -webkit-transition: background 1s ease-in-out;
+ -moz-transition: background 1s ease-in-out;
+ -o-transition: background 1s ease-in-out;
+ 
+}
+
+#dropdown-menu li a:before {
+ background:rgba(0,0,0,0.1111);
+ text-align:center;
+ 
+}
+
+#dropdown-menu li .image-1 {
+ background-image:url(../opensource_materials/monkees.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+ -moz-background-size: cover;
+ -webkit-background-size: cover;
+ -o-background-size: cover;
+
+}
+
+#dropdown-menu li .image-2 {
+ background-image:url(../images/band.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+ -moz-background-size: cover;
+ -webkit-background-size: cover;
+ -o-background-size: cover;
+ 
+}
+#dropdown-menu li .image-3 {
+ background-image:url(../opensource_materials/The_Monkees-group-band.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+ -moz-background-size: cover;
+ -webkit-background-size: cover;
+ -o-background-size: cover;
+ 
+ 
+}
+
+
+#dropdown-menu li .image-4 {
+ background-image:url(../images/cover3.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+ -moz-background-size: cover;
+ -webkit-background-size: cover;
+ -o-background-size: cover;
+
+}
+
+
+
+.section-video {
+ margin:0;
+ padding:0;
+ margin-top:18px;
+}
+
+.section-video > .heading > iframe {
+    width: 100%;
+    height:235px;
+}
+
+/*end Section Style*/
+
+
+/*start Footers Style newsletter Text*/
 
 .newsletter-text {
  text-align:center;
@@ -184,7 +324,10 @@ span {
  background:#dc6b63;
 }
 
+/*end Footers Style newsletter Text*/
 
+
+/*start Footers Style Social-Media Icons*/
 
 .social-media {
  text-align:center;
@@ -232,6 +375,11 @@ span {
  color:red;
 }
 
+/*end Footers Style Social-Media Icons*/
+
+
+/*start Footers Style Newsletter Form*/
+
 .newsletter-form {
  margin:0;
  padding:0;
@@ -262,7 +410,13 @@ text-align:center;
     background: #f5514d;
     font-size: 18px;
     border-radius: 5px;
+    border:none;
 }
+
+/*end Footers Style Newsletter Form*/
+
+
+/*start Footers Style Copyright-Text*/
 
 .copyright > .heading  {
     text-align:center;
@@ -280,6 +434,12 @@ text-align:center;
  border:none;
 }
 
+/*end Footers Style Copyright-Text*/
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< start Media Queries>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
 @media (min-width:768px) and (max-width:991px) {
  
  .logo {
@@ -291,7 +451,29 @@ text-align:center;
  cursor:pointer;
  
 }
- 
+
+.section-video > .heading > iframe {
+    width: 100%;
+    height:360px;
+}
+
+.section-image > .heading {
+ position:relative;
+ top:-10px;
+}
+
+.section-video {
+ margin:0;
+ padding:0;
+ margin-top:-1px;
+}
+
+.section-video > .heading > iframe {
+    width: 96%;
+    height: 311px;
+    position: relative;
+    left: 15px;
+}
  
 .newsletter-form > .heading {
 text-align:center;
@@ -327,11 +509,6 @@ text-align:center;
     top: 25px;
 }
 
-.frame-text > span {
-
- font-size:100px;
-}
-
 }
 
 
@@ -345,6 +522,49 @@ text-align:center;
  padding:0;
  cursor:pointer;
  
+}
+
+
+.section-jumbotron > .heading > .jumbotron  {
+ height:350px;
+ 
+}
+
+.section-jumbotron > .heading > .jumbotron > h1  {
+ position:relative;
+ top:30px;
+ 
+}
+
+.section-jumbotron > .heading > .jumbotron > p > a  {
+ position:relative;
+ top:60px;
+ 
+}
+
+#dropdown-menu li  {
+ 
+ height:200px;
+ 
+}
+
+#dropdown-menu li a  {
+ 
+ height:200px;
+ 
+}
+
+.section-video {
+    margin: 0;
+    padding: 0;
+    margin-top: 9px;
+}
+
+.section-video > .heading > iframe {
+    width: 97%;
+    height: 411px;
+    position: relative;
+    left: 15px;
 }
 
  .newsletter-form > .heading {
@@ -399,6 +619,80 @@ text-align:center;
  
 }
 
+.section-image > .heading {
+ position:relative;
+ top:-10px;
+ 
+}
+
+#dropdown-menu li  {
+ 
+ height:200px;
+ 
+}
+
+#dropdown-menu li a  {
+ 
+ height:200px;
+ 
+}
+
+.section-video {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.section-video > .heading > iframe {
+    width: 97%;
+    height: 411px;
+    position: relative;
+    left: 15px;
+}
+
+.section-jumbotron > .heading > .jumbotron  {
+ height:450px;
+ 
+}
+
+.section-jumbotron > .heading > .jumbotron > h1  {
+ position:relative;
+ top:90px;
+ font-size:70px;
+ 
+}
+
+.section-jumbotron > .heading > .jumbotron > p > a  {
+ position:relative;
+ top:120px;
+ 
+}
+
+#dropdown-menu li .image-1 {
+ 
+ background-size: cover;
+ height:200px;
+ 
+}
+
+#dropdown-menu li .image-2 {
+  background-size: cover;
+ height:200px;
+}
+
+
+#dropdown-menu li .image-3 {
+ background-size: cover;
+ height:200px;
+}
+
+
+#dropdown-menu li .image-4 {
+  background-size: cover;
+ height:200px;
+}
+
 span {
  text-transform: uppercase;
  font-size:150px;
@@ -426,12 +720,82 @@ top: 60px;
  
 }
 
+.section-image > .heading {
+ position:relative;
+ top:-10px;
+ 
+}
+
+.section-video {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.section-video > .heading > iframe {
+    width: 97%;
+    height: 411px;
+    position: relative;
+    left: 15px;
+}
+
+.section-jumbotron > .heading > .jumbotron  {
+ height:450px;
+ 
+}
+
+.section-jumbotron > .heading > .jumbotron > h1  {
+ position:relative;
+ top:90px;
+ font-size:70px;
+ 
+}
+
+.section-jumbotron > .heading > .jumbotron > p > a  {
+ position:relative;
+ top:120px;
+ 
+}
+
+.embed-responsive-16by9 {
+    position: relative;
+    top: 26px;
+    height: 410px;
+}
+
+#dropdown-menu li .image-1 {
+ 
+ background-size: cover;
+ height:200px;
+ 
+}
+
+#dropdown-menu li .image-2 {
+  background-size: cover;
+ height:200px;
+}
+
+
+#dropdown-menu li .image-3 {
+ background-size: cover;
+ height:200px;
+}
+
+
+#dropdown-menu li .image-4 {
+  background-size: cover;
+ height:200px;
+}
 .frame-text > span {
 
  font-size:150px;
 }
+
 }
 
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end Media Queries>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 
 
