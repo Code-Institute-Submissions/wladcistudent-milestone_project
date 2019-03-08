@@ -386,6 +386,54 @@ height: 615px
  color:#6f6e6e;
 }
 
+/*music-section*/
+
+.row-section-music-heading {
+ background:#ffe501;
+}
+
+.row-section-music-audio {
+ background:#ea685e;
+ text-align:center;
+}
+
+.heading-section-music {
+ padding:0;
+ margin:0;
+ text-align:center;
+}
+
+.heading-section-music > h1 {
+    font-size: 50px;
+    color: #f1655b;
+    font-weight: 400;
+}
+
+.audio-feature-1 {
+ color:#fafafa;
+ font-size:40px;
+}
+
+.audio-feature-2 {
+ color:#4caf50;
+ font-size:40px;
+}
+
+.audio-feature-3 {
+ color:#ffeb3b;
+ font-size:40px;
+}
+
+.audio-feature-4 {
+ color:#00bcd4;
+ font-size:40px;
+}
+
+.audio-framework img {
+    position: relative;
+    top: -12px;
+}
+
 /*end Section Style*/
 
 
