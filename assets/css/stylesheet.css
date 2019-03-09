@@ -136,7 +136,7 @@ span {
     font-size: 50px;
     padding: 10px;
     text-align:center;
-    transform: rotate3d(20deg);
+    
 }
 
 #nav-dropdown li a .fa-home {
