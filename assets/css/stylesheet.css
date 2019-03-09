@@ -180,15 +180,9 @@ section {
  text-align:center;
  margin-bottom:-40px;
 }
-
-.section-jumbotron > .heading > .jumbotron > h1 {
- margin:0;
- padding:0;
- color:#ffffff;
-}
-
 .section-jumbotron > .heading > .jumbotron  {
  background:#dc7f78;
+ color:#fafafa;
 }
 
 .section-jumbotron > .heading > .jumbotron > p > a  {
@@ -313,14 +307,10 @@ section {
     background-color: #f3db06;
 }
 
-.header > .jumbotron > h1 {
+.header > .jumbotron > .header-about {
     margin: 0;
     font-size: 60px;
     color: #dc584f;
-}
-
-.header > .jumbotron > h1 > p {
-   
 }
 
 .about-text {
@@ -403,7 +393,7 @@ height: 615px
  text-align:center;
 }
 
-.heading-section-music > h1 {
+.heading-section-music > .heading-section-header {
     font-size: 50px;
     color: #f1655b;
     font-weight: 400;
@@ -434,6 +424,30 @@ height: 615px
     top: -12px;
 }
 
+/*Bookings-section*/
+
+row-section-bookings {
+ text-align:center;
+}
+
+.form-heading {
+    padding: 0;
+    color: #03A9F4;
+    margin: 0;
+   
+}
+
+.form-heading .jumbotron {
+    background:#FFEB3B;
+    
+}
+
+.form button {
+ background:#ffeb3b;
+ color:#03a9f4;
+ 
+}
+
 /*end Section Style*/
 
 
@@ -445,7 +459,7 @@ height: 615px
  padding:0;
 }
 
-.newsletter-text > .heading > h2 {
+.newsletter-text > .heading > .uppercase {
  margin:0;
  padding:0;
  font-size:38px;
@@ -457,7 +471,7 @@ height: 615px
  margin-bottom:25px;
 }
 
-.newsletter-text > .heading > h2 > mark {
+.newsletter-text > .heading > .uppercase > mark {
  margin:0;
  padding:0;
  color:#ffe713;
@@ -583,15 +597,18 @@ text-align:center;
 /*main page */
 
 @media (min-width:768px) and (max-width:991px) {
+
+.logo {
+ min-height:500px;
  
- .logo {
- background-image:url(../opensource_materials/The_Monkees_wiki_pic_1.jpg);
- background-repeat: no-repeat;
- min-height:450px;
- margin:0;
- padding:0;
- cursor:pointer;
- 
+}
+
+#dropdown-menu li .image-1 {
+ height:150px;
+}
+
+#dropdown-menu li .image-2 {
+ height:150px;
 }
 
 .section-image > .heading {
@@ -649,8 +666,14 @@ text-align:center;
 
 /*about-section*/
 
-.header .jumbotron h1 {
- margin-top:20%;
+.header .jumbotron .header-about {
+ position:relative;
+ top:120px;
+}
+
+.header .jumbotron p {
+ position:relative;
+ top:120px;
 }
 
 .about-text {
@@ -665,24 +688,15 @@ text-align:center;
  height:645px;
 }
 
-
-
-
-
 }
-
 
 @media (min-width:992px) {
 
- .logo {
- background-image:url(../opensource_materials/The_Monkees_wiki_pic_1.jpg);
- background-repeat: no-repeat;
- min-height:600px;
- margin:0;
- padding:0;
- cursor:pointer;
+.logo {
+ min-height:500px;
  
 }
+
 
 .section-image > .heading {
  position:relative;
@@ -695,7 +709,7 @@ text-align:center;
  
 }
 
-.section-jumbotron > .heading > .jumbotron > h1  {
+.section-jumbotron > .heading > .jumbotron > .header-about  {
  position:relative;
  top:30px;
  
@@ -768,30 +782,14 @@ text-align:center;
 
 /*about-section*/
 
-.header .jumbotron h1 {
- margin-top:0%;
+.header .jumbotron .header-about {
+ position:relative;
+ top:120px;
 }
 
-.about-text .text-dj {
- 
-}
-
-.about-text .text-md img {
- 
-}
-
-.about-text .text-pt {
- 
-}
-
-.about-text .text-pt img {
- 
-}
-
-/*about-section*/
-
-.header .jumbotron h1 {
- margin-top:20%;
+.header .jumbotron p {
+ position:relative;
+ top:120px;
 }
 
 .about-text {
@@ -810,14 +808,18 @@ text-align:center;
 }
 
 @media (min-width:1200px) {
-  .logo {
- background-image:url(../opensource_materials/The_Monkees_wiki_pic_1.jpg);
- background-repeat: no-repeat;
- min-height:700px;
- margin:0;
- padding:0;
- cursor:pointer;
  
+ .logo {
+ min-height:800px;
+ 
+}
+
+#dropdown-menu li .image-1 {
+ height:150px;
+}
+
+#dropdown-menu li .image-2 {
+ height:150px;
 }
 
 .section-image > .heading {
@@ -857,7 +859,7 @@ text-align:center;
  
 }
 
-.section-jumbotron > .heading > .jumbotron > h1  {
+.section-jumbotron > .heading > .jumbotron > .header-about  {
  position:relative;
  top:90px;
  font-size:70px;
@@ -901,8 +903,14 @@ span {
 
 /*about-section*/
 
-.header .jumbotron h1 {
- margin-top:15%;
+.header .jumbotron .header-about {
+ position:relative;
+ top:120px;
+}
+
+.header .jumbotron p {
+ position:relative;
+ top:120px;
 }
 
 .about-text {
@@ -925,29 +933,21 @@ span {
  height:697px;
 }
 
-
-
 }
 
 @media (min-width:1800px) {
+ 
+ .logo {
+ min-height:800px;
+ 
+}
+
   .newsletter-text > .heading {
 text-align:center;
 position: relative;
 top: 60px;
 }
 
-  .logo {
- background-image:url(../opensource_materials/The_Monkees_wiki_pic_1.jpg);
- background-repeat: no-repeat;
- background-size: cover ;
- -moz-background-size: cover ;
- -webkit-background-size: cover ;
- -o-background-size: cover ;
- margin:0;
- padding:0;
- cursor:pointer;
- 
-}
 
 .section-image > .heading {
  position:relative;
@@ -975,7 +975,7 @@ top: 60px;
  
 }
 
-.section-jumbotron > .heading > .jumbotron > h1  {
+.section-jumbotron  .heading  .jumbotron > .header-about  {
  position:relative;
  top:90px;
  font-size:70px;
@@ -1020,8 +1020,14 @@ top: 60px;
 
 /*about-section*/
 
-.header .jumbotron h1 {
- margin-top:15%;
+.header .jumbotron .header-about {
+ position:relative;
+ top:120px;
+}
+
+.header .jumbotron p {
+ position:relative;
+ top:120px;
 }
 
 .about-text {
