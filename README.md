@@ -12,7 +12,7 @@ music.html page (the music portfolio), and booking.html page (the booking form).
 
 <strong>#Demo</strong>
 
-The website link can be found <a href="https://milestone-project-wlad88.c9users.io/assets/html/index.html">here.</a>
+The website link can be found <a href="https://wladcistudent.github.io/milestone_project_1/">here.</a>
 
 <strong>#UX</strong>
 
