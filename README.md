@@ -51,7 +51,7 @@ This  website was tested on multiple browsers (Chrome, Safari, FireFox) and on m
 
 <strong>#Deployment</strong>
 
-<p>The link to clone repository locally in the git terminal: https://github.com/wladcistudent/milestone_project_1.git</p>
+<p>The link to clone repository locally in the git terminal: https://github.com/wladcistudent/milestone_project.git</p>
 <p>The link to Github Pages: https://wladcistudent.github.io/milestone_project/</p>
 
 <strong>#Validation of the coding</strong>
