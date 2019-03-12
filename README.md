@@ -12,7 +12,7 @@ music.html page (the music portfolio), and booking.html page (the booking form).
 
 <strong>#Demo</strong>
 
-The website link can be found <a href="https://wladcistudent.github.io/milestone_project_1/">here.</a>
+The website link can be found <a href="https://wladcistudent.github.io/milestone_project/">here.</a>
 
 <strong>#UX</strong>
 
@@ -51,7 +51,8 @@ This  website was tested on multiple browsers (Chrome, Safari, FireFox) and on m
 
 <strong>#Deployment</strong>
 
-The link to clone repository locally in the git terminal: https://github.com/wladcistudent/milestone_project_1.git
+<p>The link to clone repository locally in the git terminal: https://github.com/wladcistudent/milestone_project_1.git</p>
+<p>The link to Github Pages: https://wladcistudent.github.io/milestone_project/</p>
 
 <strong>#Validation of the coding</strong>
 
